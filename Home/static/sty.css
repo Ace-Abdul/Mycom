@@ -1,0 +1,192 @@
+:root{
+    --cool-gray-90: #1d2226;
+    --cool-gray-95: #181a1e;
+    background-color: var(--cool-gray-95);
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+}
+body{
+    background-color: var(--cool-gray-95);
+}
+
+#nav-full{
+    background-color: rgb(29,34,38,0.95);
+    height: 10vh;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 80px;       /*same as div height */
+    padding-left: 50px;
+    word-spacing: 50px;
+    font-size: 18px;
+    color:gray;
+   
+}
+
+#nav-full>a{
+    color: gray;
+    transition: color 0.3s;
+}
+#nav-full>a:visited {
+    color:gray;
+    text-decoration: none;
+}
+
+#nav-full>a:hover{
+    transition: 0.3s;
+    color: white;
+    font-size: 18.1px;
+}
+
+#home-section{
+    position: relative;
+    color: white;
+    background-color: black;
+    height:100vh;
+    width: auto;
+    font-size: 24px;
+    text-align: center;
+    background-image: url("https://i0.wp.com/papers.co/wallpaper/papers.co-bl71-art-sun-minimal-simple-red-29-wallpaper.jpg");
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#home-hey{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    padding-top: 120px;
+}
+
+#home-content{
+    padding-top:90px;
+}
+
+#about-section{
+    position: relative;
+    background-color: rgb(24, 26, 30);
+    color: white;
+    height: 100vh;
+    padding: 80px 30px 30px;
+}
+
+#project-section{
+    padding-top: 50px;
+    position: flex;
+    background-color: var(--cool-gray-95);
+    height: 240vh;
+}
+
+#project-section>div{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    position: relative;
+    box-sizing: border-box;
+    width: 25%;
+    height: 70vh;
+    padding-left: 0px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+    float: left;
+    background-color: gray;
+    bottom: 0; 
+}
+
+#project-section img{
+    width: 100%;
+    height: 35%;
+    position: relative;
+}
+
+.card-desc{
+    position: relative;
+    background-color: white;
+    flex-direction: column;    
+    display: grid; 
+    height: 65%;
+}
+
+#contact-section{
+    position: relative;
+    background-color: whitesmoke;
+    color: red;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    padding-left: 50px;
+    text-align:left;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    bottom:0px;
+    vertical-align: middle;
+    padding-top: 5px;
+    font-size:100px;
+}
+#contact-section a{
+    color: black;
+    font-size:13px
+}
+
+#contact-section a:hover{
+    color: rgb(196, 166, 0);
+    transition: color 0.1s;
+}
+
+#contact-section img{
+    height:20px;
+    width: 20px;
+}
+
+
+#Email{
+    position: relative;
+    font-size: 10px;
+    padding-left: 2%;
+    display: flex;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+}
+
+#Git{
+    position: relative;
+    font-size: 10px;
+    padding-left: 0px;
+    display: flex;
+    margin-left: 5%;
+    text-align: left;
+    vertical-align: middle;
+    
+}
+
+#Linkedin{
+    position: relative;
+    font-size: 10px;
+    padding-right: 10%;
+    display: flex;
+    margin-left: 5%;
+    text-align: left;
+    vertical-align: middle;
+    
+}
+
+
