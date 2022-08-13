@@ -7,6 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="static/sty.css"/>
     <title> Home Portfolio</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+    
 </head>
 
 
@@ -36,8 +42,11 @@
                 My favorite casual formal greeting is "Hey." 
                 When we I was 3, my one year younger brother beleived my official name is Hey. In Arabic, he would always say "Hey, do you want to go the park,""I'm going to the park with Hey." 
             </p>
+            <div id="like_button_container">
+
+            </div>
             <aside id="portrait">
-                <img src = static/self.jpg alt="self image" id ="self-img">
+                <img src ="static/self.jpg" alt="self image" id ="self-img">
             </aside>
         </div>
         <div id="project-section">
@@ -166,6 +175,8 @@
                 <a href ="https://www.linkedin.com/in/aceabdul/"> <img alt="Linkedin Logo" src="static/linkedin-icon.jpg"> linkedin.com/in/aceabdul </a> 
             </div>
         </div>
+
+        
 </body>
 
 
