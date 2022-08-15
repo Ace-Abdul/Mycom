@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="static/sty.css"/>
-    <title> Home Portfolio</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
-  <!-- Load our React component. -->
-  <script src="like_button.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script data-type="module"src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     
+    <!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+    
+    
+    <title> Home Portfolio</title>
 </head>
 
 
 <body>
     <header>
         <div id="nav-full">
-            <a href="#home-section" id="nav-home"> Home </a>
-            <a href="#about-section" id="nav-about"> About </a>
-            <a href="#project-section" id="nav-projects"> Projects </a>
-            <a href="#contact-section" id="nav-contact"> Contact </a>
+            <a href="#home-section" id="nav-home"> <i class="bi bi-house-door"></i>Home</a>
+            <a href="#about-section" id="nav-about"> <i class="bi bi-file-earmark-person"></i>About</a>
+            <a href="#project-section" id="nav-projects"> <i class="bi bi-hdd"></i>Projects</a>
+            <a href="#contact-section" id="nav-contact"> <i class="bi bi-person-lines-fill"></i>Contact</a>
         </div>
     </header>   
         <div id="home-section"> 
@@ -35,19 +39,21 @@
     
         <div id="about-section">
             <p id = "about-content">
-                The handsome man on the right is me — Ahmed "Ace" Abdulrahman. I could also tell you I'm a junior at Duke studying blah blah blah but you already know that from my resume and LinkedIn page. 
-                Instead, let's play a game :) Two truths and a lie. I'll give you three statements; two are true
-                and you figure out the lie. I have prizes for you to choose from if guess you 3 lies in a row! 
-                <br>
-                My favorite casual formal greeting is "Hey." 
-                When we I was 3, my one year younger brother beleived my official name is Hey. In Arabic, he would always say "Hey, do you want to go the park,""I'm going to the park with Hey." 
+                The handsome gentleman on the right is me — Ahmed Abdulrahman. I could also tell 
+                you I'm a junior at Duke studying blah blah blah but you already know that from my 
+                resume and LinkedIn page. Instead, let me tell you more about me in a fun way. Let's
+                play a game :) Two truths and a lie. I'll give you three statements; two are true
+                and you figure out the lie. I have prizes for you to choose from if guess you 3 lies 
+                in a row! 
             </p>
-            <div id="like_button_container">
+            <div id="game">
 
             </div>
+            
             <aside id="portrait">
                 <img src ="static/self.jpg" alt="self image" id ="self-img">
             </aside>
+
         </div>
         <div id="project-section">
             <div id="TerraVision">     
@@ -55,11 +61,11 @@
                 <div class="card-desc"> 
                     <h4> TerraVision</h4>
                     <p>
-                    TerraVision is a startup with the mission of collecting data on publicly viewable economic activity by strategically 
-                    placing cameras to collect images of business activities that map 
-                    to key company performance insights. This data is processed with a computer vision
-                    AI to generate unique insights into high-value questions 
-                    for Hedge Funds and other asset managers.
+                        TerraVision is a startup with the mission of collecting data on publicly viewable economic activity by strategically 
+                        placing cameras to collect images of business activities that map 
+                        to key company performance insights. This data is processed with a computer vision
+                        AI to generate unique insights into high-value questions 
+                        for Hedge Funds and other asset managers.
                     </p>
                 </div>  
             </div>
@@ -175,8 +181,10 @@
                 <a href ="https://www.linkedin.com/in/aceabdul/"> <img alt="Linkedin Logo" src="static/linkedin-icon.jpg"> linkedin.com/in/aceabdul </a> 
             </div>
         </div>
-
         
+        <script type="text/babel" src="static/like_button.jsx"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
 </body>
 
 

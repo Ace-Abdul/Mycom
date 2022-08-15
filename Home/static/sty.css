@@ -5,6 +5,11 @@
     scroll-behavior: smooth;
 }
 
+i{
+    padding-right: 0.7%;
+}
+
+
 a {
     text-decoration: none;
 }
@@ -26,6 +31,7 @@ body{
     -webkit-text-size-adjust:none;
     text-size-adjust: none;
 }
+
 #nav-full{
     position: relative;
     background-color: rgb(29,34,38,0.95);
@@ -35,7 +41,7 @@ body{
     vertical-align: middle;
     padding-left: 5%;
     word-spacing: 4vw;
-    font-size: max(1.3vw,3vh);
+    font-size: max(1.25vw,2.7vh);
     color:gray;
     padding-top: 1.5%;
 }
@@ -106,6 +112,7 @@ body{
     display: -webkit-box;
     -webkit-line-clamp: 20;
     -webkit-box-orient: vertical;
+    text-align: justify;
 }
 #portrait{
     position: absolute;
@@ -168,6 +175,7 @@ body{
     color: white;
     transition: color 0.2s;
 }
+
 #project-section>div:hover{
     transition: box-shadow 0.2s;
     box-shadow: 1px 1px 20px 2px red;
@@ -211,6 +219,8 @@ body{
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical;
     width: 100%;
+}
+.card-desc p{
     text-align: justify;
 }
 
