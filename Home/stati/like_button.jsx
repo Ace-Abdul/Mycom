@@ -23,32 +23,32 @@ class AboutMe extends React.Component{
         const correct_1 = ( <React.Fragment> 
                         <h4> Bingo!</h4>
                         <p> {this.state.reason_1}</p>
-                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> next </button>
+                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> Next </button>
                         </React.Fragment>);
         const correct_2 = ( <React.Fragment> 
                         <h4> Bingo!</h4>
                         <p> Flask is minimalistic and cool, but Django all day everyday</p>
-                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> next </button>
+                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> Next </button>
                         </React.Fragment>);
         
         const correct_3 = ( <React.Fragment> 
                         <h4> Bingo!</h4>
                         <p> Working with TerraVision taught me a lot about databases, but when looking back I'm more in awe at what I accomplished
                         in Code+ especially with no prior experience 💪 </p>
-                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> next </button>
+                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> Next </button>
                         </React.Fragment>);
 
         const correct_4 = ( <React.Fragment> 
                         <h4> Bingo!</h4>
                         <p> I was BORN outside the states 💀</p>
-                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> next </button>
+                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> Next </button>
                         </React.Fragment>);
 
         const correct_5 = ( <React.Fragment> 
                         <h4> Bingo!</h4>
                         <p> Wow! Surprised you figured this one. Fridays are relaxing and fun, 
                         but weekends peak on Saturdays 👊</p>
-                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> next </button>
+                        <button style={{marginLeft:"50%"}} className = "btn btn-success" onClick={()=> this.setState({next:true}) }> Next </button>
                         </React.Fragment>);
 
         const wrong = ( <React.Fragment> 
